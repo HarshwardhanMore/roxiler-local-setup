@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* --primary-bg-col: #222831;
+    --secondary-bg-col: #31363F;
+    --primary-col: #76ABAE;
+    --secondary-col: #EEEEEE; */
+  /* --primary-bg-col: #212a3e;
+  --secondary-bg-col: #394867;
+  --primary-col: #f1f6f9;
+  --secondary-col: #9ba4b5; */
+  --primary-bg-col: rgb(246, 246, 246);
+  --secondary-bg-col: white;
+  --primary-col: rgb(0, 157, 255);
+  --secondary-col: rgb(37, 37, 37);
+
+  background-color: var(--primary-bg-col);
+  color: var(--secondary-col);
+  overflow-x: hidden;
+
+  font-family: "Poppins", sans-serif;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.dialog::-webkit-scrollbar {
+  display: none;
+}
+.pie::-webkit-scrollbar {
+  display: none;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+}
